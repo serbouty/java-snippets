@@ -2,7 +2,7 @@
 
 <p align="center">
     <a href="https://openjdk.org/projects/jdk/24/">
-        <img src="https://img.shields.io/badge/jdk-24-orange?style=flat&logo=openjdk"  alt="JDK 24" /></a>
+        <img src="https://img.shields.io/badge/java-24-orange?style=flat&logo=openjdk"  alt="Java SE 24" /></a>
     <a href="https://adoptium.net/">
         <img src="https://img.shields.io/badge/vendor-eclipse-orange?style=flat&logo=eclipse-adoptium"  alt="Vendor Eclipse" /></a>
     <a href="./LICENSE.md">
