@@ -1,0 +1,11 @@
+# Default
+*                   text=auto
+
+# Source
+*.java              text diff=java
+
+# Configuration
+.gitattributes      text
+
+# Documentation
+*.md                text diff=markdown
