@@ -5,15 +5,15 @@ class ArrayDemo {
 
     public static void main(String[] args) {
 
-        int[] anArray; // Declares an array of integers
+        int[] anArray; // declares an array of integers
 
-        anArray = new int[10]; // Allocates memory for 10 integers
+        anArray = new int[10]; // allocates memory for 10 integers
 
-        anArray[0] = 100;  // Initialize first element
+        anArray[0] = 100;  // initialize first element
 
-        anArray[1] = 200; // Initialize second element
+        anArray[1] = 200; // initialize second element
 
-        anArray[2] = 300;  // And so forth
+        anArray[2] = 300;  // and so forth
         anArray[3] = 400;
         anArray[4] = 500;
         anArray[5] = 600;
@@ -60,6 +60,6 @@ class ArrayDemo {
                 700, 800, 900, 1000
         };
 
-        System.out.println("Length: " + anArray.length); // Built-in length property
+        System.out.println("Length: " + anArray.length); // built-in length property
     }
 }

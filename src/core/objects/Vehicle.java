@@ -3,15 +3,15 @@ package core.objects;
 // What is a Class ?
 class Vehicle {
 
-    // Object's state.
-    int cadence = 0;
+
+    int cadence = 0; // object's state
     int speed = 0;
     int gear = 1;
 
-    // Object's behavior.
+
     void changeCadence(int newValue) {
         cadence = newValue;
-    }
+    } // object's behavior
 
     void changeGear(int newValue) {
         gear = newValue;

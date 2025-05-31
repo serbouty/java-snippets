@@ -4,12 +4,10 @@ package core.objects;
 class VehicleDemo {
     public static void main(String[] args) {
 
-        // Create two different Vehicle objects
-        Vehicle car1 = new Vehicle();
+        Vehicle car1 = new Vehicle(); // create two different Vehicle objects
         Vehicle car2 = new Vehicle();
 
-        // Invoke methods on each objects
-        car1.changeCadence(50);
+        car1.changeCadence(50); // invoke methods on each objects
         car1.speedUp();
         car1.changeGear(2);
         car1.printStates();

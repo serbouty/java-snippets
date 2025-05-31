@@ -14,7 +14,7 @@ class ArrayCopyDemo {
 
         System.arraycopy(copyFrom,2, copyTo, 0, 7);
 
-        for (String coffee : copyTo) { // For-each loop syntax
+        for (String coffee : copyTo) { // for-each loop syntax
 
             System.out.print(coffee + " ");
         }
