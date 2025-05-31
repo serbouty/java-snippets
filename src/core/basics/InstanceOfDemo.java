@@ -1,26 +1,25 @@
 package core.basics;
 
 // The Type Comparison Operator Instanceof.
-class InstanceDemo {
-
+class InstanceOfDemo {
     public static void main(String[] args) {
 
         Parent parent = new Parent();
         Parent child = new Child();
 
         System.out.println("parent instanceof Parent: "
-                + (parent instanceof Parent)); // true
+                + (parent instanceof Parent));              // true
         System.out.println("parent instanceof Child: "
-                + (parent instanceof Child)); // false
+                + (parent instanceof Child));               // false
         System.out.println("parent instanceof MyInterface: "
-                + (parent instanceof MyInterface)); // false
+                + (parent instanceof MyInterface));         // false
 
         System.out.println("child instanceof Parent: "
-                + (child instanceof Parent)); // true
+                + (child instanceof Parent));               // true
         System.out.println("child instanceof Child: "
-                + (child instanceof Child)); // true
+                + (child instanceof Child));                // true
         System.out.println("child instanceof MyInterface: "
-                + (child instanceof MyInterface)); // true
+                + (child instanceof MyInterface));          // true
     }
 }
 

@@ -3,11 +3,9 @@ package core.objects;
 // What is a Class ?
 class Vehicle {
 
-
     int cadence = 0; // object's state
     int speed = 0;
     int gear = 1;
-
 
     void changeCadence(int newValue) {
         cadence = newValue;
@@ -26,8 +24,6 @@ class Vehicle {
     }
 
     void printStates() {
-        System.out.println("cadence:" +
-                cadence + " speed:" +
-                speed + " gear:" + gear);
+        System.out.println("cadence:" + cadence + " speed:" + speed + " gear:" + gear);
     }
 }

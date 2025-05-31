@@ -2,7 +2,6 @@ package core.basics;
 
 // Arrays.
 class ArrayDemo {
-
     public static void main(String[] args) {
 
         int[] anArray; // declares an array of integers

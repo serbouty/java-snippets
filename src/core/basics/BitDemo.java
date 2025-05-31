@@ -2,7 +2,6 @@ package core.basics;
 
 // Bitwise and Bit Shift Operators.
 class BitDemo {
-
     public static void main(String[] args) {
 
         int bitmask = 0x000F;

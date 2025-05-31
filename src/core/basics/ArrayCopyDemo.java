@@ -2,7 +2,6 @@ package core.basics;
 
 // Copying Arrays.
 class ArrayCopyDemo {
-
     public static void main(String[] args) {
 
         String[] copyFrom = {
@@ -14,8 +13,7 @@ class ArrayCopyDemo {
 
         System.arraycopy(copyFrom,2, copyTo, 0, 7);
 
-        for (String coffee : copyTo) { // for-each loop syntax
-
+        for (String coffee : copyTo) { // enhanced for statement
             System.out.print(coffee + " ");
         }
     }

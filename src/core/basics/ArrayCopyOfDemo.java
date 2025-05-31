@@ -2,7 +2,6 @@ package core.basics;
 
 // Array Manipulations.
 class ArrayCopyOfDemo {
-
     public static void main(String[] args) {
 
         String[] copyFrom = {
