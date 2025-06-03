@@ -15,7 +15,6 @@
 
 - [Learn Java](https://dev.java/learn/)
 - [Java SE 24 & JDK 24 API Specification](https://docs.oracle.com/en/java/javase/24/docs/api/index.html)
-- [JDK 24 Documentation](https://docs.oracle.com/en/java/javase/24/index.html)
 
 ## License
 
