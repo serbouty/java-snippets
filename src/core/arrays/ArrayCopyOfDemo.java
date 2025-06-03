@@ -1,7 +1,7 @@
-package core.basics;
+package core.arrays;
 
-// Copying Arrays.
-class ArrayCopyDemo {
+// Array Manipulations.
+class ArrayCopyOfDemo {
     public static void main(String[] args) {
 
         String[] copyFrom = {
@@ -9,11 +9,10 @@ class ArrayCopyDemo {
                 "Doppio", "Espresso", "Frappucino", "Freddo", "Lungo", "Macchiato",
                 "Marocchino", "Ristretto" };
 
-        String[] copyTo = new String[7];
+        // fewer lines with java.util.Arrays
+        String[] copyTo = java.util.Arrays.copyOfRange(copyFrom, 2, 9);
 
-        System.arraycopy(copyFrom,2, copyTo, 0, 7);
-
-        for (String coffee : copyTo) { // enhanced for statement
+        for (String coffee : copyTo) {
             System.out.print(coffee + " ");
         }
     }

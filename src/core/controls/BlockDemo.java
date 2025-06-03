@@ -1,4 +1,4 @@
-package core.basics;
+package core.controls;
 
 // Expressions, Statements and Blocks.
 class BlockDemo {

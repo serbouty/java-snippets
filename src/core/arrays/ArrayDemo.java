@@ -1,4 +1,4 @@
-package core.basics;
+package core.arrays;
 
 // Arrays.
 class ArrayDemo {

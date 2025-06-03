@@ -1,4 +1,4 @@
-package core.basics;
+package core.controls;
 
 // Bitwise and Bit Shift Operators.
 class BitDemo {

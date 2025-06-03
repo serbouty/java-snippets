@@ -1,4 +1,4 @@
-package core.basics;
+package core.controls;
 
 // The For Statement.
 class EnhancedForDemo {

@@ -1,4 +1,4 @@
-package core.basics;
+package core.arrays;
 
 // Creating, Initializing, and Accessing an Array.
 class MultiDimArrayDemo {

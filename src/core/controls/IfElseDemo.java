@@ -1,4 +1,4 @@
-package core.basics;
+package core.controls;
 
 // The If-Then-Else Statement.
 class IfElseDemo {

@@ -1,4 +1,4 @@
-package core.basics;
+package core.controls;
 
 // The While and Do-while Statements.
 class WhileDemo {

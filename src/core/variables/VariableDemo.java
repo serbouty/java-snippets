@@ -1,4 +1,4 @@
-package core.basics;
+package core.variables;
 
 // Variables, Naming Variables, Primitive Types.
 class VariableDemo {
