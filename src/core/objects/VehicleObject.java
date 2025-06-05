@@ -1,7 +1,7 @@
 package core.objects;
 
 // What is a Class ?
-class Vehicle {
+class VehicleObject {
 
     int cadence = 0; // object's state
     int speed = 0;

@@ -1,11 +1,11 @@
-package core.objects;
+package core.objects; // VehicleObject available in the current package
 
 // What is a Class ?
 class VehicleDemo {
     public static void main(String[] args) {
 
-        Vehicle car1 = new Vehicle(); // create two different Vehicle objects
-        Vehicle car2 = new Vehicle();
+        VehicleObject car1 = new VehicleObject(); // create two different Vehicle objects
+        VehicleObject car2 = new VehicleObject();
 
         car1.changeCadence(50); // invoke methods on each objects
         car1.speedUp();

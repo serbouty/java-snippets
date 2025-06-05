@@ -43,7 +43,7 @@ class VariableDemo {
         byte nybbles = 0b0010_0101;
         long bytes = 0b11010010_01101001_10010100_10010010;
 
-        // The Var Keyword.
+        // The Var Keyword / since Java SE 10.
 
         var message = "Hello world!"; // only for local variables
     }
