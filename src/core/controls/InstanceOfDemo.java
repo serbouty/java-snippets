@@ -1,28 +1,29 @@
 package core.controls;
 
 // The Type Comparison Operator Instanceof.
+
 class InstanceOfDemo {
     public static void main(String[] args) {
 
-        Parent parent = new Parent();
-        Parent child = new Child();
+        InstanceOfParent parent = new InstanceOfParent();
+        InstanceOfParent child = new InstanceOfChild();
 
         System.out.println("parent instanceof Parent: "
-                + (parent instanceof Parent));              // true
+                + (parent instanceof InstanceOfParent));              // true
         System.out.println("parent instanceof Child: "
-                + (parent instanceof Child));               // false
+                + (parent instanceof InstanceOfChild));               // false
         System.out.println("parent instanceof MyInterface: "
-                + (parent instanceof MyInterface));         // false
+                + (parent instanceof InstanceOfInterface));         // false
 
         System.out.println("child instanceof Parent: "
-                + (child instanceof Parent));               // true
+                + (child instanceof InstanceOfParent));               // true
         System.out.println("child instanceof Child: "
-                + (child instanceof Child));                // true
+                + (child instanceof InstanceOfChild));                // true
         System.out.println("child instanceof MyInterface: "
-                + (child instanceof MyInterface));          // true
+                + (child instanceof InstanceOfInterface));          // true
     }
 }
 
-class Parent {}
-class Child extends Parent implements MyInterface {}
-interface MyInterface {}
+class InstanceOfParent {}
+class InstanceOfChild extends InstanceOfParent implements InstanceOfInterface {}
+interface InstanceOfInterface {}

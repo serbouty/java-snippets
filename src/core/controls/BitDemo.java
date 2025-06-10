@@ -1,6 +1,7 @@
 package core.controls;
 
 // Bitwise and Bit Shift Operators.
+
 class BitDemo {
     public static void main(String[] args) {
 

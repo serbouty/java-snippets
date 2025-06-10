@@ -1,6 +1,7 @@
 package core.controls;
 
 // The While and Do-while Statements.
+
 class WhileDemo {
     public static void main(String[] args){
 

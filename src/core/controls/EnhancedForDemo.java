@@ -1,6 +1,7 @@
 package core.controls;
 
 // The For Statement.
+
 class EnhancedForDemo {
     public static void main(String[] args){
 

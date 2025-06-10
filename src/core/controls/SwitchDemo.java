@@ -1,9 +1,9 @@
 package core.controls;
 
+// Branching with Switch Statements.
+
 class SwitchDemo {
     public static void main(String[] args) {
-
-        // Branching with Switch Statements.
 
         // calculates the number of days in a particular month
         int month = 2;
@@ -22,11 +22,13 @@ class SwitchDemo {
                 numDays = 30;
                 break;
             case 2:                     // February
+
                 // check if the current year is a leap year
                 if (((year % 4 == 0) &&     // year is divisible by 4, not a leap year
                     !(year % 100 == 0)) ||  // year is divisible by 100, leap year
                     (year % 400 == 0))      // year is divisible by 400, not a leap year
                     numDays = 29;
+                // end block
                 else
                     numDays = 28;
                 break;
