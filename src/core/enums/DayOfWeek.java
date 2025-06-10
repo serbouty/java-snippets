@@ -1,4 +1,6 @@
-package core.objects;
+package core.enums;
+
+// Accessing, evaluating, and comparing enums.
 
 enum DayOfWeek { // extends java.lang.Enum
     // constants
@@ -44,4 +46,3 @@ enum DayOfWeek { // extends java.lang.Enum
         System.out.println(text);
     }
 }
-
