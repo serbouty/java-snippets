@@ -1,14 +1,14 @@
 package core.objects;
 
 // Understanding What Objects Are.
-public class CreateObjectDemo {
 
+public class CreateObjectDemo {
     public static void main(String[] args) {
 
         // declare and create a point object and two rectangle objects
-        Point originOne = new Point(23, 94);
-        Rectangle rectOne = new Rectangle(originOne, 100, 200);
-        Rectangle rectTwo = new Rectangle(50, 100);
+        CreatePoint originOne = new CreatePoint(23, 94);
+        CreateRectangle rectOne = new CreateRectangle(originOne, 100, 200);
+        CreateRectangle rectTwo = new CreateRectangle(50, 100);
 
         // display rectOne's width, height, and area
         System.out.println("Width of rectOne: " + rectOne.width);
@@ -29,34 +29,41 @@ public class CreateObjectDemo {
     }
 }
 
-class Point {
+class CreatePoint {
+
     public int x = 0;
     public int y = 0;
+
     // a constructor!
-    public Point(int a, int b) {
+    public CreatePoint(int a, int b) {
         x = a;
         y = b;
     }
 }
 
-class Rectangle {
+class CreateRectangle {
+
     public int width = 0;
     public int height = 0;
-    public Point origin;
+
+    public CreatePoint origin;
 
     // four constructors
-    public Rectangle() {
-        origin = new Point(0, 0);
+    public CreateRectangle() {
+        origin = new CreatePoint(0, 0);
     }
-    public Rectangle(Point p) {
+
+    public CreateRectangle(CreatePoint p) {
         origin = p;
     }
-    public Rectangle(int w, int h) {
-        origin = new Point(0, 0);
+
+    public CreateRectangle(int w, int h) {
+        origin = new CreatePoint(0, 0);
         width = w;
         height = h;
     }
-    public Rectangle(Point p, int w, int h) {
+
+    public CreateRectangle(CreatePoint p, int w, int h) {
         origin = p;
         width = w;
         height = h;

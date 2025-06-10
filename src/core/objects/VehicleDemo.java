@@ -1,6 +1,7 @@
 package core.objects; // VehicleObject available in the current package
 
 // What is a Class ?
+
 class VehicleDemo {
     public static void main(String[] args) {
 

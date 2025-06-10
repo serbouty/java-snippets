@@ -1,28 +1,52 @@
 package core.objects;
 
-// Declaring Classes.
+// Understanding Class Members.
+
 public class BicycleObject {
 
-    // three fields
-    public int cadence;
-    public int gear;
-    public int speed;
+    private int cadence;
+    private int gear;
+    private int speed;
 
-    // one constructor
-    // called by the 'new' operator
+    private int id;
+
+    private static int numberOfBicycles = 0;
+
+
     public BicycleObject(int startCadence, int startSpeed, int startGear) {
         gear = startGear;
         cadence = startCadence;
         speed = startSpeed;
+
+        id = ++numberOfBicycles;
     }
 
-    // four methods
+    public int getID() {
+        return id;
+    }
+
+    public static int getNumberOfBicycles() {
+        return numberOfBicycles;
+    }
+
+    public int getCadence() {
+        return cadence;
+    }
+
     public void setCadence(int newValue) {
         cadence = newValue;
     }
 
+    public int getGear(){
+        return gear;
+    }
+
     public void setGear(int newValue) {
         gear = newValue;
+    }
+
+    public int getSpeed() {
+        return speed;
     }
 
     public void applyBrake(int decrement) {

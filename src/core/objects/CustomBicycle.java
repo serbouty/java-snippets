@@ -1,7 +1,8 @@
 package core.objects;
 
 // What is an Interface ?
-class AcmeBicycleObject implements BicycleContract {
+
+class CustomBicycle implements BicycleContract {
 
     int cadence = 0;
     int speed = 0;
@@ -28,11 +29,4 @@ class AcmeBicycleObject implements BicycleContract {
                 cadence + " speed:" +
                 speed + " gear:" + gear);
     }
-}
-
-interface BicycleContract {
-    void changeCadence(int newValue);
-    void changeGear(int newValue);
-    void speedUp();
-    void applyBrakes(int decrement);
 }
