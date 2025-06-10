@@ -1,6 +1,7 @@
 package core.variables;
 
 // Variables, Naming Variables, Primitive Types.
+
 class VariableDemo {
 
     int cadence = 0; // instance variables (non-static fields)
